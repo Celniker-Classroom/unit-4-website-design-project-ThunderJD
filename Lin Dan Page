@@ -4,6 +4,24 @@
     <title>Jiadong Liu's CSF Home Page</title>
   </head>
   <body>
-<p>Hello</p>
-  </body>
+    <h1>Lin Dan</h1>
+    <h2>"Super Dan"</h2>
+    <p>Btw, click the portrait to go back to the home page.</p>
+    <a href="https://orange-space-barnacle-q75x6gr5qggwcvrr-3004.app.github.dev/index.html?serverWindowId=58ffd464-d0c0-4482-834b-2437db2b31a9"><img src="/image/Lin Dan Portrait.jpg"alt="Lin Dan Photo"></a>
+    <p><b>1. Lin Dan(林丹)</b>-"Super Dan"
+        <br><br><b>Age/DOB: </b>Born October 14, 1983(Longyan,Fujian, China)
+        <br><br><b>Primary hand:</b> Left handed attacker
+        <br><br><b>Nicknames:</b> Super Dan
+        <br><br><b>Rackets Used:</b> Yonex Voltric Z-Force II, Yonex Astrox 99
+        <br><br><b>Key Achievements:</b> 2x Olypmic Gold(2008,2015) 5x World Champion, 6x All England Champion
+    </p>
+<h2>The Unstoppable Force</h2>
+<p>Lin Dan is widely regarded as the greatest badminton player of all time. He is the first and only player to complete the "Double Grand Slam" winning all nine major international titles twice.</p>
+<h2>Interesting Facts & Legacy</h2>
+<ol>
+<li><b>Pianist to Prodigy:</b> Parents wanted him to learn piano, but he chose badminton at age five. </li>
+<li><b>The Rivalry: </b>His rivalry with Lee Chong Wei is considered the greatest in Badminton history.</li>
+</ol>
+<img src="/image/Lin Dan action.jpg"alt="Lin Dan action photo">
+</body>
 </html>

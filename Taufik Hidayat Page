@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jiadong Liu's CSF Home Page</title>
+  </head>
+  <body>
+    <h1>Taufik Hidayat</h1>
+    <h2>"Mr Backhand"</h2>
+    <p>Btw, click the portrait to go back to the homepage.</p>
+    <a href=index.html><img src="/image/download.jpeg"alt="Taufik Hidayat Photo"></a>
+    <p><b>2. Taufik Hidayat</b>-"Mr. Backhand"
+        <br><br><b>Age/DOB: </b>Born August 10, 1981 (Bandung, West Java, Indonesia)
+        <br><br><b>Primary hand:</b> Right handed, defensive master & trickshot specialist
+        <br><br><b>Nicknames:</b> Mr. Backhand
+        <br><br><b>Rackets Used:</b> Yonex Armortec 700, Yonex Arc Saber Z-Slash
+        <br><br><b>Key Achievements:</b> 2004 Olympic Gold, 2005 World Champion, 2x Asian Games Gold
+    </p>
+<h2>The Artistic Master</h2>
+<p>Taufik Hidayat was known for his effortless, elegant movement and deceptive net play. He set the standard for modern men's singles by blending smooth footwork with devastating, rapid backhand smashes—a shot that once reordered the fastest in-game smash record at 268 km/h. As the youngest player ever to reach world number one at age 19, Taufik was a prodigy who thrived on technique over pure physicality.</p>
+<h2>Interesting Facts & Legacy</h2>
+<ol>
+<li><b>The Backhand:</b> His backhand was often more feared than his forhand, able to generate immense power from impossible angles.</li>
+<li><b>Multi-Talented: </b>Initially wanted to be a footballer, but his father recognized his talent for badminton.</li>
+</ol>
+<img src="/image/images.jpeg"alt="Taufik Hidayat action photo">
+</body>
+</html>

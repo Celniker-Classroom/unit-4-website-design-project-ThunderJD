@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jiadong Liu's CSF Home Page</title>
+  </head>
+  <body>
+    <h1>Lee Chong Wei</h1>
+    <h2>"The marathon man"</h2>
+    <p>Btw, click the portrait to go back to the homepage.</p>
+    <a href=index.html><img src="/image/download (1).jpeg"alt="Lee Chong Wei Photo"></a>
+    <p><b>3. Lee Chong Wei(李宗伟)</b>-"The Marathon Man"
+        <br><br><b>Age/DOB: </b>Born October 21, 1982(Bagan Serai, Perak, Malaysia)
+        <br><br><b>Primary hand:</b> Right handed,incredible speed and stamina
+        <br><br><b>Nicknames:</b> Dato, The marathon man
+        <br><br><b>Rackets Used:</b> Yonex Voltric Z-Force II, Yonex Astrox 77, Yonex Astrox 99
+        <br><br><b>Key Achievements:</b> 3x Olympic Silver Medalist (2008,2012,2016), 349 weeks ranked No 1.
+    </p>
+<h2>The Dedicated Hero</h2>
+<p>Dato' Lee Chong Wei is a Malaysian sporting legend known for his incredible endurance, blinding speed, and an attacking style that forced opponents into mistakes. He held the World Number One ranking for a record 349 weeks, including a 199-week streak. Despite consistently placing second behind Lin Dan in major finals, his "never give up" attitude made him a beloved figure globally.</p>
+<h2>Interesting Facts & Legacy</h2>
+<ol>
+<li><b>Lucky 11:</b> Started playing Badminton at age 11 after his mother banned him from playing basketball due to the heat.</li>
+<li><b>Comeback Spirit: </b>Showed immense mental fortitude, continuing to win tournaments even after facing career-threatening accidents and, later, nose cancer, which forced his retirment.</li>
+</ol>
+<img src="/image/images (1).jpeg"alt="Lee Chong Wei action photo">
+</body>
+</html>
