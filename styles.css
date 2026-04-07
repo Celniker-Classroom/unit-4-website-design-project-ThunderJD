@@ -1,1 +1,27 @@
-/* Add Global styles here */
+
+.navbar ul{
+    list-style-type: none;
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color:purple;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:aquamarine
+}
+
+.navbar li{
+    float:left;
+    font-size: 24px;
+    margin-left:150px;
+    margin-right: 150px;
+}
