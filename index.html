@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content=""width=device-width, intial-scale="1">
   <head>
     <title>Jiadong Liu's CSF Home Page</title>
   </head>
-  <script>
+<script>
     function replace(){
     location.replace("https://krazysmash.com/pages/greatest-badminton-players?srsltid=AfmBOoqids7oAOWsZUGyP7vn6gi6CpAl7tcvf5Xrskp9KIVby6RRWtbU")
 }
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
 }
-  </script>
-  <body>
+</script>
+    <link rel="js" href="script.js">
     <link rel="stylesheet" href="styles.css">
-  <style>
+<style>
   body {
     background-color:lightblue;
+    padding: 25px; 
+     color:black; 
+     font-size:25px;
   }
+
   p{
     font-size:20px
   }
@@ -31,7 +30,12 @@ window.onscroll = function() {
     border: 5px solid blueviolet;
     border-radius: 10px;
 }
-  </style>
+.dark-mode{
+  background-color:black;
+  color:white;
+}
+</style>
+  <body>
     <h1>Welcome to the Badminton Goats Guide!</h1>
     <nav class = "navbar">
         <ul>
@@ -83,6 +87,13 @@ window.onscroll = function() {
   </tr>
 </table>
   <br><input type = "button" onclick="alert('HeHe I wasted your time!')"value="Hi!">
-  </body>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<button onclick="myFunction()">Toggle dark mode</button>
+</body>
 </html>
 

@@ -1,4 +1,8 @@
-
+.navbar {
+    position:fixed;
+    top: 0;
+    width:100%;
+}
 .navbar ul{
     list-style-type: none;
     background-color: antiquewhite;
@@ -24,4 +28,35 @@
     font-size: 24px;
     margin-left:150px;
     margin-right: 150px;
+}
+.dark-mode{
+    background-color: black;
+    color:hsl(0, 0%, 100%);
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
