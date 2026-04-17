@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content=""width=device-width, intial-scale="1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
     <title>Jiadong Liu's CSF Home Page</title>
-  </head>
-<script>
-    function replace(){
-    location.replace("https://krazysmash.com/pages/greatest-badminton-players?srsltid=AfmBOoqids7oAOWsZUGyP7vn6gi6CpAl7tcvf5Xrskp9KIVby6RRWtbU")
-}
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
-</script>
-    <link rel="js" href="script.js">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
+  </head>
+
 <style>
-  body {
+    body {
     background-color:lightblue;
     padding: 25px; 
      color:black; 
      font-size:25px;
-  }
+         }
 
-  p{
+    p{
     font-size:20px
-  }
-  img{
+     }
+    
+     img{
     border: 5px solid blueviolet;
     border-radius: 10px;
-}
-.dark-mode{
+       }
+    
+       .dark-mode{
   background-color:black;
   color:white;
-}
+              }
+      
+  table,th,td{
+    border:1px solid blueviolet;
+  }
 </style>
-  <body>
-    <h1>Welcome to the Badminton Goats Guide!</h1>
+<body>
+  <h1>Welcome to the Badminton Goats Guide!</h1>
     <nav class = "navbar">
         <ul>
           <li><a href= "index.html">Home</a></li>
@@ -44,27 +42,36 @@ function myFunction() {
           <li><a href= "TH.html">Taufik Hidayat</a></li>
           <li><a href= "LCW.html">Lee Chong Wei</a></li>
         </ul>
-
     </nav>
-    <img src="/image/1775837512-576133a4.jpg" alt="Badminton picture" style="width: 100vw; height: 600px">
-    <h2>The Top Three Badminton Players</h2>
-    <p>Badminton is a racket sport played worldwide, with around 400 million players total! Of course, there are really good players, and not so good players, so this is the website showcasing the three best badminton players of all time!</p>
-    <img src="/image/Lin Dan new homepage photo.jpeg"alt= "Lin Dan Photo" style = "width:256px;height:512px;margin-left:50px;"> 
-    <img src="/image/Taufik Hidayat new homepage photo.webp"alt="Taufik Hidayat Photo" style = "width:256px;height:512px;margin-left:475px">
-    <img src="/image/New LCW new homepage photo.jpg"alt="Lee Chong Wei" style = "width:256px;height:512px; margin-left:475px">
-    <p>
-  <b><span style="margin-left: 140px;"><a href="LD.html">Lin Dan</a></span></b>
-  <b><span style="margin-left: 630px;"><a href="TH.html">Taufik Hidayat</a></span></b>
-  <b><span style="margin-left: 600px;"><a href="LCW.html">Lee Chong Wei</a></span></b>
-  </p>
-  <button onclick="replace()">Website with other GOATS</button>
+
+  <img src="/image/1775837512-576133a4.jpg" alt="Badminton picture" style="width: 100vw; height: 600px">
+  <h2>The Top Three Badminton Players</h2>
+      <p>Badminton is a racket sport played worldwide, with around 400 million players total! Of course, there are really good players, and not so good players, so this is the website showcasing the three best badminton players of all time!</p>
+  <div class="player-gallery">
+  
+  <div class="player-card">
+    <img src="/image/Lin Dan new homepage photo.jpeg" alt="Lin Dan" style="width:256px; height:512px;">
+    <a href="LD.html">Lin Dan</a>
+  </div>
+
+  
+  <div class="player-card">
+    <img src="/image/Taufik Hidayat new homepage photo.webp" alt="Taufik Hidayat" style="width:256px; height:512px;">
+    <a href="TH.html">Taufik Hidayat</a>
+  </div>
+
+  
+  <div class="player-card">
+    <img src="/image/New LCW new homepage photo.jpg" alt="Lee Chong Wei" style="width:256px; height:512px;">
+    <a href="LCW.html">Lee Chong Wei</a>
+  </div>
+</div>
+
+<button onclick="replace()">Website with other GOATS</button>
   <h4>Other great badminton players</h4>
-  <style>
-  table,th,td{
-    border:1px solid blueviolet;
-  }
-  </style>
-  <table style="width:100%">
+
+
+<table style="width:100%">
   <tr>
     <th>Name</th>
     <th>Country</th>
@@ -86,11 +93,14 @@ function myFunction() {
     <td>Elite net play, excpetional defense, and his tactical intelligence</td>
   </tr>
 </table>
-  <br><input type = "button" onclick="alert('HeHe I wasted your time!')"value="Hi!">
+  
+<br><input type = "button" onclick="alert('HeHe I wasted your time!')"value="Hi!">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <br><a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
+
 <br><button onclick="myFunction()">Toggle dark mode</button></body>
 </body>
 </html>
